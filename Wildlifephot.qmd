@@ -1,0 +1,11 @@
+---
+title: "Wildlife photography"
+format: html
+css: styles.css
+---
+
+![](images/DSC_0320-Enhanced-NR.jpg){fig-align="center" width="250%"}
+
+![](images/DSC_0623-Enhanced-NR-3.jpg){fig-align="left"}
+
+![](images/DSC_0327-Enhanced-NR.jpg){fig-align="center"}

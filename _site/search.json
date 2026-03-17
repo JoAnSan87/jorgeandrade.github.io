@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "J. ANDRADE-SÁNCHEZ”",
+    "section": "",
+    "text": "My name is Jorge Andrade Sánchez, a wildlife ecologist from Baja California. My father’s family (Andrade-Murillo) is one of the oldest families from Baja California Sur, particularly from La Paz and Santa Rosalía (Choyero lands). My mother’s side, the Sánchez-Servín family, took a long journey from Nahuatzen, Michoacan to stablish at San Vicentito, Baja California to latter migrate (in burro) to El Rosario, Baja California back in 1945. I grew up in Ensenada but travelling coastal roads across the peninsula visiting my family. The wonders of the peninsula, including its wildlife, enviroments and its remarkable people, have had a profound impact on me and made me the person and researcher I am now. In this personal webpage I’ll share about my research, photography, family history and opinions."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello y’all! My name is Jorge Andrade Sánchez. My father’s family (Andrade-Murillo) came from one of the oldest families from Baja California Sur (the Murillo family), particularly from La Paz and Santa Rosalía (Choyero lands). My mother’s side, the Sánchez-Servín family, took a long journey from Nahuatzen, Michoacan to stablish in San Vicentito, Baja California and latter in El Rosario, Baja California in 1945. I grew up in Ensenada but travelling coastal roads across the peninsula visiting my family. In a sense, I am a true “Bajacaliforniano”. The wonders of the peninsula, including the wildlife, enviroments and its remarkable people have had a profound impact on me and made me how I am. In this, personal webpage, I’ll share about my research, photography, opinions and more."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Ecological diatribes",
+    "section": "",
+    "text": "Ecology is a indeed a science. However, a interdisciplinary science! To start, lies in the intersection between math and biology."
+  },
+  {
+    "objectID": "blog.html#otro-título-de-sección",
+    "href": "blog.html#otro-título-de-sección",
+    "title": "Ecological diatribes",
+    "section": "",
+    "text": "Aquí puedes agregar más contenido interesante para tu post de blog. Puedes estructurarlo como desees utilizando las diversas características de formato de Markdown de Quarto.\n¡Diviértete escribiendo tu blog!"
+  },
+  {
+    "objectID": "Prueba.html",
+    "href": "Prueba.html",
+    "title": "Your title here\n",
+    "section": "",
+    "text": "Here you can add some text. Next slide starts with the hash symbol (## Title) to mark its title.\n\n\n\n\n\n\n\n\n\n\nimport numpy as np #works with python as well\nnumbers = [10, 20, 30, 40, 50]\narr = np.array(numbers)\nmean = np.mean(arr)\nprint(\"Mean:\", mean)\n\nMean: 30.0"
+  },
+  {
+    "objectID": "Prueba.html#this-is-a-standard-slide.",
+    "href": "Prueba.html#this-is-a-standard-slide.",
+    "title": "Your title here\n",
+    "section": "",
+    "text": "Here you can add some text. Next slide starts with the hash symbol (## Title) to mark its title.\n\n\n\n\n\n\n\n\n\n\nimport numpy as np #works with python as well\nnumbers = [10, 20, 30, 40, 50]\narr = np.array(numbers)\nmean = np.mean(arr)\nprint(\"Mean:\", mean)\n\nMean: 30.0"
+  },
+  {
+    "objectID": "Prueba.html#columns",
+    "href": "Prueba.html#columns",
+    "title": "Your title here\n",
+    "section": "Columns",
+    "text": "Columns\n\n\n\nTopic 2\n\nLevel 1\nLevel 2\nLevel 3\n\n\n\n\nTopic 3\n\nLevel 1\n\nSublevel 4\n\nLevel 2\nLevel 3\n\n\n\n\nTopic 4\n\nLevel 1\nLevel 2\nLevel 3"
+  },
+  {
+    "objectID": "Prueba.html#content",
+    "href": "Prueba.html#content",
+    "title": "Your title here\n",
+    "section": "🗣 Content",
+    "text": "🗣 Content\nThis is what will be discussed today.\nAlways good to explain the agenda so audience can have clear expectations.\n\n\nTherse are animated bullet points:\n\n\n   📜 Point one\n   🧫 Point two\n   🚀 Point three\n\n\n\n…You can use Font Awesome symbols as well ."
+  },
+  {
+    "objectID": "Prueba.html#slide-with-a-table",
+    "href": "Prueba.html#slide-with-a-table",
+    "title": "Your title here\n",
+    "section": "Slide with a table",
+    "text": "Slide with a table\nUsing Markdown you can also write tables\n\n\n\nReagent\nVolume\nFinal Concentration\n\n\n\n\nSterile water or NF-water\n840 µl\n\n\n\n10xPBS\n100 µl\n1x\n\n\n10% Tween-20\n10 µl\n0.1% Tween-20\n\n\n10% BSA\n50 µl\n1% BSA\n\n\nTOTAL:\n1000 µl\n\n\n\n\nI recommend the online Markdown table generator: https://www.tablesgenerator.com/markdown_tables"
+  },
+  {
+    "objectID": "Prueba.html#you-can-also-have-a-slide-with-a-website-embedded",
+    "href": "Prueba.html#you-can-also-have-a-slide-with-a-website-embedded",
+    "title": "Your title here\n",
+    "section": "📜 You can also have a slide with a website embedded",
+    "text": "📜 You can also have a slide with a website embedded"
+  },
+  {
+    "objectID": "Prueba.html#just-a-title-slide",
+    "href": "Prueba.html#just-a-title-slide",
+    "title": "Your title here\n",
+    "section": "📜 Just a title slide",
+    "text": "📜 Just a title slide"
+  },
+  {
+    "objectID": "Prueba.html#two-column-imagetext-slide",
+    "href": "Prueba.html#two-column-imagetext-slide",
+    "title": "Your title here\n",
+    "section": "📜 Two-column image/text slide",
+    "text": "📜 Two-column image/text slide\n\n\nThis is a two column container when you want text next to an image.\n\n\n\n\nCaption: Fred Sanger having a drink\n\n\n\n\n\n\n\n\n\n Sanger et al. 1977 PNAS"
+  },
+  {
+    "objectID": "Prueba.html#citations",
+    "href": "Prueba.html#citations",
+    "title": "Your title here\n",
+    "section": "Citations",
+    "text": "Citations\nAdd your references by specifying the footer like this:\n::: footer\nr fa(\"book\", fill = \"steelblue\") [Sanger et al. 1977 _PNAS_](https://doi.org/10.1073/pnas.74.12.5463)\n:::\nThen a link will display the citation in the footer next to the book icon .\nIn this case a paper from Fred Sanger published in PNAS 1977.\n\n Sanger et al. 1977 PNAS"
+  },
+  {
+    "objectID": "Prueba.html#fragments",
+    "href": "Prueba.html#fragments",
+    "title": "Your title here\n",
+    "section": "Fragments",
+    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n. . .\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
+  },
+  {
+    "objectID": "Prueba.html#chalkboard",
+    "href": "Prueba.html#chalkboard",
+    "title": "Your title here\n",
+    "section": "Chalkboard",
+    "text": "Chalkboard\n\nFree form drawing and slide annotations\n\n\n\n\n\n\n\n\n\n\nUse the chalkboard button at the bottom left of the slide to toggle the chalkboard.\n\n\n\n\n\n\n\n\n\n\n\n\nUse the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.\n\n\n\nYou can also press b to toggle the chalkboard or c to toggle the notes canvas.\n\nLearn more: Chalkboard"
+  },
+  {
+    "objectID": "Prueba.html#slide-backgrounds",
+    "href": "Prueba.html#slide-backgrounds",
+    "title": "Your title here\n",
+    "section": "Slide Backgrounds",
+    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
+  },
+  {
+    "objectID": "Prueba.html#media-backgrounds",
+    "href": "Prueba.html#media-backgrounds",
+    "title": "Your title here\n",
+    "section": "Media Backgrounds",
+    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
+  },
+  {
+    "objectID": "Prueba.html#absolute-position",
+    "href": "Prueba.html#absolute-position",
+    "title": "Your title here\n",
+    "section": "Absolute Position",
+    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\nLearn more: Absolute Position"
+  },
+  {
+    "objectID": "Prueba.html#auto-animate",
+    "href": "Prueba.html#auto-animate",
+    "title": "Your title here\n",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "Prueba.html#auto-animate-1",
+    "href": "Prueba.html#auto-animate-1",
+    "title": "Your title here\n",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "Wildlifephot.html",
+    "href": "Wildlifephot.html",
+    "title": "Wildlife photography",
+    "section": "",
+    "text": "Mammals"
+  },
+  {
+    "objectID": "Mammals.html",
+    "href": "Mammals.html",
+    "title": "Mammals",
+    "section": "",
+    "text": "Coyote\n\nAntelope squirrel"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research explores fundamental and modern questions in wildlife ecology and conservation genomics, resonating with Elton’s classic inquiry: What factors determine the distribution and abundance of organisms? and Pianka’s broader question: How do ecological and evolutionary processes shape the diversity of life across landscapes? These guiding questions frame my work on the ecology, adaptation, and conservation of threatened small mammals. By addressing these foundational ecological questions with modern tools such as genomics, multivariate statistics and more, my work advances our understanding of biodiversity and provides critical insights for conservation in a rapidly changing world.\nI am currently a postdoctoral researcher based at Marine Science Faculty, UABC."
+  },
+  {
+    "objectID": "Data viz.html",
+    "href": "Data viz.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Este es un gráfico de dispersión muy común en estadística. Con el, se pueden obs"
+  }
+]

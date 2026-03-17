@@ -1,0 +1,7 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: J. ANDRADE-SÁNCHEZ\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  editor: visual\n  title-block-banner: Images/PanoramicaMalbar.jpg\n  title: '<span style=''color:#FFFFFF''>J. ANDRADE-SÁNCHEZ</span>\"'\n  subtitle: '<span style=''color:#FFFFFF''>Research, photography, and data viz from a Baja California ecologist</span>\"'\n  \n"]
+[1,"Output created: _site\\index.html\n\n"]
+[1,"Preparing to preview\n"]
+[1,"\n"]
+[1,"Watching files for changes\nBrowse at http://localhost:4761/\n"]
+[1,"GET: /\n"]

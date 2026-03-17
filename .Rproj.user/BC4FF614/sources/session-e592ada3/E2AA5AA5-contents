@@ -1,0 +1,105 @@
+---
+title: "Data Visualization"
+format: html
+execute:
+  warning: false
+  message: false
+  echo: false  
+---
+```{r}
+
+#| echo: false
+#| warning: false
+#| message: false
+
+library(palmerpenguins)
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+
+# Limpiar datos
+penguins_clean <- penguins %>%
+  filter(!is.na(bill_length_mm), !is.na(body_mass_g), !is.na(flipper_length_mm))
+
+# 1. CORRELACIÓN POSITIVA: Longitud del pico vs Masa corporal (Adelie)
+adelie_data <- penguins_clean %>% filter(species == "Adelie")
+modelo_positivo <- lm(body_mass_g ~ bill_length_mm, data = adelie_data)
+r2_positivo <- summary(modelo_positivo)$r.squared
+
+plot_positivo <- ggplot(adelie_data, aes(x = bill_length_mm, y = body_mass_g)) +
+  geom_point(color = "darkorange", alpha = 0.7, size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "red", fill = "pink", alpha = 0.3) +
+  labs(
+    title = "CORRELACIÓN POSITIVA",
+    subtitle = paste("A mayor longitud del pico, mayor masa corporal\nR² =", round(r2_positivo, 3)),
+    x = "Longitud del pico (mm)",
+    y = "Masa corporal (g)"
+  ) +
+  theme_classic() +
+  theme(
+    plot.title = element_text(face = "bold", color = "darkgreen", size = 12),
+    plot.subtitle = element_text(size = 10),
+    axis.title = element_text(size = 10)
+  )
+
+# 2. CORRELACIÓN NEGATIVA: Longitud del pico vs Longitud de aleta (por especie)
+penguins_clean <- penguins_clean %>%
+  mutate(bill_flipper_ratio = bill_length_mm / flipper_length_mm)
+
+modelo_negativo <- lm(body_mass_g ~ bill_flipper_ratio, data = penguins_clean)
+r2_negativo <- summary(modelo_negativo)$r.squared
+
+plot_negativo <- ggplot(penguins_clean, aes(x = bill_flipper_ratio, y = body_mass_g)) +
+  geom_point(color = "purple", alpha = 0.7, size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "blue", fill = "lightblue", alpha = 0.3) +
+  labs(
+    title = "CORRELACIÓN NEGATIVA",
+    subtitle = paste("A mayor proporción pico/aleta, menor masa corporal\nR² =", round(r2_negativo, 3)),
+    x = "Proporción longitud pico/aleta",
+    y = "Masa corporal (g)"
+  ) +
+  theme_classic() +
+  theme(
+    plot.title = element_text(face = "bold", color = "darkred", size = 12),
+    plot.subtitle = element_text(size = 10),
+    axis.title = element_text(size = 10)
+  )
+
+# 3. SIN CORRELACIÓN: Variable aleatoria vs masa corporal
+set.seed(123) # Para reproducibilidad
+penguins_clean <- penguins_clean %>%
+  mutate(variable_aleatoria = runif(n(), 0, 10))
+
+modelo_sin_correlacion <- lm(body_mass_g ~ variable_aleatoria, data = penguins_clean)
+r2_sin_correlacion <- summary(modelo_sin_correlacion)$r.squared
+
+plot_sin_correlacion <- ggplot(penguins_clean, aes(x = variable_aleatoria, y = body_mass_g)) +
+  geom_point(color = "cyan4", alpha = 0.7, size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "gray", fill = "lightgray", alpha = 0.3) +
+  labs(
+    title = "SIN CORRELACIÓN",
+    subtitle = paste("No hay relación entre variable aleatoria y masa corporal\nR² =", round(r2_sin_correlacion, 3)),
+    x = "Variable aleatoria",
+    y = "Masa corporal (g)"
+  ) +
+  theme_classic() +
+  theme(
+    plot.title = element_text(face = "bold", color = "gray50", size = 12),
+    plot.subtitle = element_text(size = 10),
+    axis.title = element_text(size = 10)
+  )
+
+# Organizar en una sola columna
+plot_positivo / plot_negativo / plot_sin_correlacion +
+  plot_annotation(
+    title = "Tipos de Correlación en Pingüinos Palmer",
+    subtitle = "Ejemplos ilustrativos usando datos reales y transformados",
+    theme = theme(
+      plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+      plot.subtitle = element_text(size = 12, hjust = 0.5)
+    )
+  )
+
+```
+
+Este es un gráfico de dispersión muy común en estadística. Con el, se pueden obs

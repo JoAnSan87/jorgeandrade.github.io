@@ -1,0 +1,15 @@
+---
+title: "Mammals"
+format: html
+css: styles.css
+---
+
+![](images/DSC_0669.jpg)
+
+![](images/DSC_1136-01.jpg)
+
+Coyote
+
+![](images/DSC_2009.jpg)
+
+Antelope squirrel
