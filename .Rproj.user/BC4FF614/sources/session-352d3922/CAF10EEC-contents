@@ -1,6 +1,6 @@
 /.quarto/
-/_site/
-.Rproj.user
+  /_site/
+  .Rproj.user
 .Rhistory
 .RData
 .DS_Store
