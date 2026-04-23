@@ -1,48 +1,57 @@
-.reveal[data-state="no-logo"] .logo {
-  display: none;
-}
-
-
-.reveal .slides section[data-state="no-logo"] h1, 
-.reveal .slides section[data-state="no-logo"] h3 {
-  color: #003e6a;
-  font-size: 1.6em; /* Ajusta este tamaño según sea necesario */
+/* HERO TITLE */
+.quarto-title-block .title {
+  font-size: 3rem;
+  font-weight: 800;
   text-align: center;
-  white-space: nowrap;
 }
 
-.reveal .slides section[data-state="no-logo"] h3 {
-  color: #000000;
-  font-size: 1.3em;
+.quarto-title-block .subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #777;
 }
 
-.image-row {
-    display: flex;
-    justify-content: center; /* Centra las imágenes dentro del contenedor */
-    gap: 10px; /* Espacio entre las imágenes */
-    align-items: center; /* Alinea las imágenes verticalmente */
-}
-.main-content {
-    width: 100%;
-    height: auto;
-    max-width: 100vw;
-    position: relative;
-    overflow: hidden;
+/* CIRCULAR IMAGES */
+.circle-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s;
 }
 
-.main-content::before {
-    content: "";
-    display: block;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+.circle-img:hover {
+  transform: scale(1.05);
 }
 
-.inner-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* PROFILE IMAGE */
+.profile-img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
 }
 
+/* EMAIL BOX */
+.email-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #d96c5f;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
 
+/* CENTER TEXT */
+.text-center {
+  text-align: center;
+}
 
+/* Quitar línea del título principal */
+.quarto-title-block {
+  border-bottom: none !important;
+}
+
+/* Quitar línea de secciones */
+h2 {
+  border-bottom: none !important;
+}

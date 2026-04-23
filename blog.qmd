@@ -1,5 +1,5 @@
 ---
-title: "Ecological diatribes"
+title: <span style='color:#FFFFFF'> Ecological diatribes </span>
 ---
 
 # Ecology is a science!

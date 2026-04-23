@@ -1,5 +1,0 @@
----
-title: "Mammals"
----
-
-![](images/DSC_0570.jpg){width="552"}

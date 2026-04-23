@@ -1,0 +1,35 @@
+"0","library(palmerpenguins)
+"
+"2","Warning messages:
+"
+"2","1: "
+"2","In read.dcf(file.path(p, ""DESCRIPTION""), c(""Package"", ""Version"")) :"
+"2","
+ "
+"2"," cannot open compressed file 'C:/Users/Jorge/AppData/Local/R/win-library/4.2/knitr/DESCRIPTION', probable reason 'No such file or directory'
+"
+"2","2: "
+"2","In read.dcf(file.path(p, ""DESCRIPTION""), c(""Package"", ""Version"")) :"
+"2","
+ "
+"2"," cannot open compressed file 'C:/Users/Jorge/AppData/Local/R/win-library/4.2/knitr/DESCRIPTION', probable reason 'No such file or directory'
+"
+"2","3: "
+"2","In read.dcf(file.path(p, ""DESCRIPTION""), c(""Package"", ""Version"")) :"
+"2","
+ "
+"2"," cannot open compressed file 'C:/Users/Jorge/AppData/Local/R/win-library/4.2/knitr/DESCRIPTION', probable reason 'No such file or directory'
+"
+"2","4: "
+"2","In read.dcf(file.path(p, ""DESCRIPTION""), c(""Package"", ""Version"")) :"
+"2","
+ "
+"2"," cannot open compressed file 'C:/Users/Jorge/AppData/Local/R/win-library/4.2/knitr/DESCRIPTION', probable reason 'No such file or directory'
+"
+"0","library(ggplot2)"
+"0","library(dplyr)"
+"0","library(patchwork)"
+"0","library (xfun)"
+"0","library(knitr)"
+"2","Error in library(knitr) : there is no package called ‘knitr’
+"

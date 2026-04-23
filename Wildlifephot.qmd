@@ -1,5 +1,5 @@
 ---
-title: "Wildlife photography"
+title: <span style='color:#FFFFFF'> Wildlife photography</span> 
 format: html
 css: styles.css
 ---

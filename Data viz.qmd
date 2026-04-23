@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization"
+title: <span style='color:#FFFFFF'> Data Viz </span>
 format: html
 execute:
   warning: false
@@ -16,6 +16,9 @@ library(palmerpenguins)
 library(ggplot2)
 library(dplyr)
 library(patchwork)
+library (xfun)
+library(knitr)
+library(rmarkdown)
 
 # Limpiar datos
 penguins_clean <- penguins %>%
@@ -99,6 +102,9 @@ plot_positivo / plot_negativo / plot_sin_correlacion +
       plot.subtitle = element_text(size = 12, hjust = 0.5)
     )
   )
+
+library(knitr)
+library(rmarkdown)
 
 ```
 
